@@ -1,0 +1,19 @@
+header {
+  background-color: var(--background);
+  padding: 20px 20px;
+  border-bottom: 1px solid var(--border-menu-mobile);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    
+    .logo{
+      margin-top: 25px;
+    }
+    
+    .buguer {
+      margin-top: 35px;
+      cursor: pointer;
+    }
+  }
+}

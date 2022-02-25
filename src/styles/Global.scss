@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+  
+}
+
+:root {
+  --background: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+  
+  --text-weight400: 400;
+  --text-weight700: 700;
+}
+
