@@ -1,6 +1,6 @@
-import './style.scss';
+import './sidebar.scss';
 
-export function List() {
+export function Sidebar() {
   return(
     <>
       <div className="menu">

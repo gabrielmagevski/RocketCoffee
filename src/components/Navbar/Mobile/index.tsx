@@ -1,12 +1,11 @@
-import { Sidebar } from "../Sidebar";
-
 import BurgerOpen from '../../../assets/menu-buguer-open.svg';
 import BurgerClose from "../../../assets/menu-buguer-close.svg";
 
 import LogoMobile from '../../../assets/logo-mobile.svg';
 
-import './style.scss';
+import './mobile.scss';
 import { useState } from "react";
+import { Sidebar } from './Sidebar';
 
 export function Mobile() {
   const[open, setOpen] = useState(false);
