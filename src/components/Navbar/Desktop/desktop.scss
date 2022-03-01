@@ -6,8 +6,13 @@
   padding-top: 60px;
   margin: 0px 100px 0px 200px;
 
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
  .logoDesktop {
     width: 130%;
+    cursor: pointer;
   }
   
   .list {
@@ -17,16 +22,18 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-
+    
     gap: 30px;
   
     list-style: none;
     font-weight: var(--text-weight400);
     font-size: 20px;
-
-    &:hover {
-      cursor: pointer;
-      filter: brightness(0.9);
+    
+    li {
+      &:hover {
+        cursor: pointer;
+        filter: brightness(0.9);
+      }
     }
   }
 }
@@ -48,7 +55,7 @@
     transition: background 0.2s;
 
     &:hover {
-     background-color: #000;
+     background-color: #9466ff;
     }
   }
 }

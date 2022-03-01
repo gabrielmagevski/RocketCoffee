@@ -9,7 +9,14 @@ html, body {
   background-color: var(--background);
   color: var(--text-color);
   
+  @media(min-width: 992px) {
+    background-image: url(../assets/blur-2.png);
+    background-position-y: top;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
 }
+
 
 :root {
   --background: #000;

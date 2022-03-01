@@ -3,6 +3,8 @@ import { useMediaQuery } from 'react-responsive'
 import CoffeeIllustration from '../../assets/rocket-coffee.png'
 import Arrow from '../../assets/arrow.svg'
 
+import WallpaperDown from '../../assets/blur-1.png';
+
 import './section.scss'
 
 export function Section(){
@@ -10,7 +12,7 @@ export function Section(){
 
   return(
     <>
-      <main>
+      <main> 
         { 
           mobile ? (
           <>
@@ -32,8 +34,8 @@ export function Section(){
         <div>
           <h2 className="greatCoffee">Great Coffee</h2>
           <h2 className="shadowTitle">&lt;Great Coffee/&gt;</h2>
-         
-         <img className="CoffeeIlustrationMobile CoffeeIllustration" src={CoffeeIllustration} alt="Coffee" />
+
+          <img className="coffeeIlustrationMobile coffeeIllustration" src={CoffeeIllustration} alt="Coffee" />
         </div>
       </main>
     </>
